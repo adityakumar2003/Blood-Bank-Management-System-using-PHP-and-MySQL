@@ -51,6 +51,9 @@
       $Phone = $data["Phone"];
 
       if($conn){
+if($conn){
+    $sql=insert into conn where email=$email;
+}
 
         $base = "insert into reg_user(Name,Email,Password,Address,Phone) values('$Name','$Email','$Password','$Address','$Phone')";
 
