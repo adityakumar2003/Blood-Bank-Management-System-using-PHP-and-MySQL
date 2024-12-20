@@ -32,7 +32,14 @@
             <img class="navbar-brand logo" src="./asset/26547407.jpg" alt="logo">
             <!-- <a class="navbar-brand" href="./asset/26547407.jpg"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+  nav2.onclick = function() {
+  menu.classList.remove('open')
+  menubtn.style.transform = 'rotate(0deg)'
+  menubtn.classList.add('uil-bars')
+  menubtn.classListss.remove('uil-times')
+}             
+
+ data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
