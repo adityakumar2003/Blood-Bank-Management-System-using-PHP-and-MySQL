@@ -67,6 +67,21 @@ if($conn){
    }
 
 //    ===========================
+
+if($conn){
+    $sql=insert into conn where email=$email;
+}
+
+        $base = "insert into reg_user(Name,Email,Password,Address,Phone) values('$Name','$Email','$Password','$Address','$Phone')";
+
+        $resp = mysqli_query($conn,$base);
+        return $resp;
+
+      }
+      else{
+        echo "Detabase not connected....!";
+
+
 //    login method
 
 function loginuser($data){
