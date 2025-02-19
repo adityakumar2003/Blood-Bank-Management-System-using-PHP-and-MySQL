@@ -52,7 +52,25 @@
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li>
-                                <hr class="dropdown-divider">
+ ////////////////////////
+                           
+copy of the test code 
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg ncolr">
+        <div class="container-fluid">
+            <img class="navbar-brand logo" src="./asset/26547407.jpg" alt="logo">
+            <!-- <a class="navbar-brand" href="./asset/26547407.jpg"></a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+
+//////////////////////////////////
+
+
+
+
+    <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
